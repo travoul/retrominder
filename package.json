@@ -1,0 +1,24 @@
+{
+  "name": "retrominder",
+  "version": "0.0.1",
+  "description": "",
+  "main": "retrominder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travoul/retrominder.git"
+  },
+  "author": "travoul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travoul/retrominder/issues"
+  },
+  "homepage": "https://github.com/travoul/retrominder#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-pagarme-base": "^3.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
