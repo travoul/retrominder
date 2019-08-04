@@ -4,6 +4,7 @@
   "description": "",
   "main": "retrominder.js",
   "scripts": {
+    "start": "node retrominder.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,10 @@
     "eslint": "^5.16.0",
     "eslint-config-pagarme-base": "^3.0.0",
     "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "@slack/webhook": "^5.0.1",
+    "log4js": "^4.5.1",
+    "ramda": "^0.26.1"
   }
 }
