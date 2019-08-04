@@ -1,3 +1,6 @@
 module.exports = {
-    "extends": "pagarme-base"
+    "extends": "pagarme-base",
+    "env": {
+        "jest": true,
+    },
 }
