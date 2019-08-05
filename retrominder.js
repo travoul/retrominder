@@ -23,4 +23,4 @@ async function start () {
   logger.debug('Exiting Application')
 }
 
-start()
+exports.handler = start
