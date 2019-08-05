@@ -4,9 +4,8 @@ const {
   sendMessageToWebhook,
 } = require('./lib')
 const logger = require('./lib/logger')
-const items = require('./data/actions.json')
 
-async function start () {
+async function start (items) {
   logger.debug('Starting Application')
 
   const attachments = items.map((item) => {
@@ -23,4 +22,4 @@ async function start () {
   logger.debug('Exiting Application')
 }
 
-start()
+exports.handler = start
